@@ -1,0 +1,35 @@
+main {
+    height: 100vh;
+    background-image: url('../../assets/cb_bgtexturergbsmallflip.png');
+    background-size: contain;
+    background-repeat: none;
+    background-position: center;
+    .homePage {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 500px;
+        }
+        nav {
+            a {
+                color: white;
+                font-family: 'Clean', sans-serif;
+                font-size: 3rem;
+                padding: 3px 20px 0;
+                margin: auto 20px;
+                background: rgba(255, 255, 255, 0.2);
+                border: white 1px solid;
+                border-radius: 3px;
+                transition: all 0.7s;
+                &:hover,
+                &:active {
+                    background: white;
+                    color: black;
+                }
+            }
+        }
+    }
+}
